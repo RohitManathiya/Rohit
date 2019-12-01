@@ -1,0 +1,10 @@
+In this project we make 3 php files.
+->ass.php is the file which will opne first where user and host can provide thier respective information.
+
+->when user and host enter their info then whole info is stored in mysqli database.
+  This work done by insert.php file. this file also responsible for sending visitor info to host via mial.
+
+->Here condb.php file is use to make connection to mysqli database.
+  our database name is 'wesite' and table name is 'visitorinfo'.
+
+->now when the time is 4 pm then visitor automatically get mail having information of meeting.
